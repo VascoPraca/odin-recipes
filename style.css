@@ -1,8 +1,8 @@
 /*style.css*/
 
-.header,
 .menu {
     text-align: center;
+    padding: .5em;
 }
 
 .backToTop,
@@ -12,9 +12,32 @@
     font-size: 20px;
     font-family: Arial, sans-serif;
     font-weight: 700;
+    
 }
 
 .menuText {
     text-align: center;
-    background-color: lightcoral;
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    flex: 1;
+    height: 550px;
+}
+
+.image-and-title {
+    text-align: center;
+
+}
+
+.line1 {
+    background-color: darkgreen;
+}
+
+.line2 {
+    background-color: darkred;
 }
