@@ -1,5 +1,7 @@
 /*style.css*/
 
+
+
 .menu {
     text-align: center;
     padding: .5em;
@@ -31,7 +33,15 @@
 
 .image-and-title {
     text-align: center;
+    flex: auto;
 
+}
+
+.image {
+    max-width: 450px;
+    width: 100%;  
+    object-fit: cover; 
+    object-position: bottom; 
 }
 
 .line1 {
@@ -40,4 +50,20 @@
 
 .line2 {
     background-color: darkred;
+}
+
+
+/* lasagna.html css */
+.header {
+    text-align: center;
+}
+
+.flex-container-lasagna {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-lasagna div {
+    justify-content: space-around;
+    margin: 15px;
 }
